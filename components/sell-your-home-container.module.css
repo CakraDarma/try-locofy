@@ -1,0 +1,51 @@
+.icon {
+  width: 78px;
+  position: relative;
+  height: 78px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sellYourHome1 {
+  position: relative;
+  font-size: var(--header-heading-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.readMore,
+.weDoA {
+  position: relative;
+  line-height: 24px;
+}
+.weDoA {
+  width: 268px;
+  color: var(--gray-400);
+  display: flex;
+  align-items: flex-end;
+}
+.readMore {
+  color: var(--primary-500);
+}
+.contents,
+.sellYourHome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contents {
+  gap: var(--gap-5xl);
+}
+.sellYourHome {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  box-shadow: 0 24px 68px rgba(59, 77, 129, 0.08);
+  padding: var(--padding-3xl);
+  box-sizing: border-box;
+  min-width: 300px;
+  max-width: 340px;
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-700);
+  font-family: var(--body-large-400);
+}
